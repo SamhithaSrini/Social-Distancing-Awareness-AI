@@ -17,11 +17,17 @@ To install the program do the following
 Run:
 Run the program using command `python SocialAwarenessUI.py`
 1. To run the program with UI (TA use this method, run the SocialAwarenessUI.py file
+
 	a. New York Times Square is the default to start
+	
 	b. The live webcam will pop-up (sometimes there is ads but after 30s, it will		 still work. 
+	
 	c. In the pop-up, you can zoom, move camera L, R, U & D.
+	
 	d. After 30s, you will automatically move to the UI
+	
 	e. [City] COVID trend is daily webscraped from news.google
+	
 	f. Cumulative [dataType] Cases graph uses covidTrackingProject API and it has 		   daily data from Feb 1st to curr day (this is also webscraped)
 	g. You can hover over any points in the graph and it will show you the data, 		number of cases of [dataType], linear regression line (based on 30 days window of	 specific date), exponential regression line, and R-value. 
 	h. You can click on different types data (#2. Blue bar) and this will change the 	cumulative graph. 
