@@ -17,28 +17,18 @@ To install the program do the following
 Run:
 Run the program using command `python SocialAwarenessUI.py`
 1. To run the program with UI (TA use this method, run the SocialAwarenessUI.py file
-
 	a. New York Times Square is the default to start
-	
 	b. The live webcam will pop-up (sometimes there is ads but after 30s, it will		 still work. 
-	
 	c. In the pop-up, you can zoom, move camera L, R, U & D.
-	
 	d. After 30s, you will automatically move to the UI
-	
 	e. [City] COVID trend is daily webscraped from news.google
-	
 	f. Cumulative [dataType] Cases graph uses covidTrackingProject API and it has 		   daily data from Feb 1st to curr day (this is also webscraped)
 	g. You can hover over any points in the graph and it will show you the data, 		number of cases of [dataType], linear regression line (based on 30 days window of	 specific date), exponential regression line, and R-value. 
-	
 	h. You can click on different types data (#2. Blue bar) and this will change the 	cumulative graph. 
-	
 	i. Now, look at the webcam live image. The green boxes refer to the people
 	 detected (algorithm using OpenCV and selenium)
-	 
 	j. In Covid Risk box, I display the number of people and number of non-socially
 	   distanced occurences. And I also display a Covid Risk Score
-	   
 		a. Covid Risk Score: uses webcam data, 1st and 2nd derivative values of
 		 cumulative positive cases for [city]. 
 			a. If 1st der > 0, this means positive cases are increasing
@@ -49,15 +39,11 @@ Run the program using command `python SocialAwarenessUI.py`
 		d. riskScore *= (factoring in reported positive cases [city] in past 14
 		    days)
 		e. Please refer to getCovidRiskScore() for all details
-		
 	k. Using the service (#2 below), I ran my program for 15 hours to track how my
 	 covid risk score in all cities changes depending on time of the day. This trend
 	 is displayed in "Daily Risk Score Trend".
-	 
 	l. To choose a diff. city, click on the red box to restart.
-	
 	m. If you click on the info icon (orange), you will see how I generate that info
-	
 	n. Enjoy! :-)
 
 

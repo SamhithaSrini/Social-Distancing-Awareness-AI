@@ -546,7 +546,7 @@ class CovidData(App):
         Returns: None
 
         """
-        self.getLocationImageSnapshot()
+        #self.getLocationImageSnapshot()
 
         self.processSnapshotImage()
         self.getCovidRiskScore()
