@@ -1,0 +1,7 @@
+requests
+pillow
+bs4
+cv2
+selenium
+numpy
+opencv-python
